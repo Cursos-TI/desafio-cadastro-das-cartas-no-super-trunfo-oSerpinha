@@ -28,7 +28,7 @@ int main(){
 
     getchar();  // Limpa o buffer para evitar erro na exibição da carta ao final
 
-    printf("Nome da cidade: ");
+    printf("Nome da cidade (sem acento): ");
     scanf("%[^\n]", cidade1); // "%[^\n]" - lê todos os caracteres até a quebra de linha
 
     printf("População: ");
@@ -57,7 +57,7 @@ int main(){
 
     getchar();  // Limpa o buffer para evitar erro na exibição da carta ao final  
 
-    printf("Nome da cidade: ");
+    printf("Nome da cidade (sem acento): ");
     scanf("%[^\n]", cidade2); 
 
     printf("População: ");
@@ -84,7 +84,7 @@ int main(){
     printf("Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
     printf("Área(km²): %.2f km²\n", area1);
-    printf("Pib: %.2f bilhões de reais\n", pib1);
+    printf("Pib: %.2f de reais\n", pib1);
     printf("Pontos Turísticos: %d\n", pontost1);
 
     //Carta 2
@@ -95,7 +95,7 @@ int main(){
     printf("Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
     printf("Área(km²): %.2f km²\n", area2);
-    printf("Pib: %.2f bilhões de reais\n", pib2);
+    printf("Pib: %.2f de reais\n", pib2);
     printf("Pontos Turísticos: %d\n", pontost2);
 
     return 0;
